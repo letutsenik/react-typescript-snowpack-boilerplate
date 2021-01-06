@@ -7,7 +7,10 @@ module.exports = {
   plugins: [
     '@snowpack/plugin-react-refresh',
     '@snowpack/plugin-dotenv',
-    '@snowpack/plugin-typescript',
+    ['@snowpack/plugin-run-script', {
+      cmd: "esw -w --clear src --ext .js,jsx,.ts,.tsx"
+    }],
+    '@snowpack/plugin-typescript'
   ],
   install: [
     /* ... */

@@ -1,6 +1,4 @@
-# New Project
-
-> ✨ Bootstrapped with Create Snowpack App (CSA).
+# Snowpack | React | Typescript boilerplate
 
 ## Available Scripts
 
